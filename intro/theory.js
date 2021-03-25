@@ -105,7 +105,7 @@
 
 
 
-let arr = [1,2,3,4,5,6,7,8];
+// let arr = [1,2,3,4,5,6,7,8];
 
 // let ans = [];
 
@@ -125,3 +125,72 @@ let arr = [1,2,3,4,5,6,7,8];
 // console.log(ans);
 
 
+// let a = 1;
+// let b = 2;
+// let c = 3;
+
+// let str1 = "bhavesh";
+// let str2 = 'bansal';
+// let str3 = `pepcoding${a + b + c}`; // add variable using dollar
+
+// console.log(str1,str2,str3);
+
+// console.log(str1[6]);
+// let str = "";
+// for(let i = 0; i < str1.length; i++) {
+//     str += str1[i];
+// }
+// console.log(str);
+
+// console.log(parseInt("10"));
+
+
+// function decimalToBinary(number) {
+//     let ans = "";
+//     while(number > 0) {
+//         let rem = number % 2;
+//         ans = rem + ans;
+//         number = parseInt(number / 2);
+//     }
+//     console.log(ans);
+// }
+
+// decimalToBinary(parseInt("10"));
+
+// function binaryToDecimal(binary) {
+//     let ans = 0;
+//     let power = 0;
+//     for(let i = binary.length -1; i >=0; i--) {
+//         let binaryDigit = parseInt(binary[i]);
+//         ans += (Math.pow(2,power) * binaryDigit);
+//         power += 1;
+//     }
+//     return ans;
+// }
+
+// console.log(binaryToDecimal("1010"));
+
+// let string = "bhavesh bansal";
+// console.log(string.substring(3,7));
+// console.log(string.toUpperCase());
+
+// let obj = {
+//     "hello1" : 1,
+//     2: "hello2",
+//     "hello3": "three"
+// }
+
+// obj[2] = "two";
+// obj["five"] = 5;
+// console.log(obj["hello1"] == undefined);
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+
+// let string = "I love pepcoding";
+// console.log(string.split(" ").join(" $ "));
+
+// let arr = ["hello", "how", "are", "you"];
+// console.log(arr.join(" "));
+
+let str = "bhavesh";
+console.log(str.charCodeAt(1));
