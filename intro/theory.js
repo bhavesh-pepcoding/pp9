@@ -192,5 +192,14 @@
 // let arr = ["hello", "how", "are", "you"];
 // console.log(arr.join(" "));
 
-let str = "bhavesh";
-console.log(str.charCodeAt(1));
+// let str = "bhavesh";
+// console.log(str.charCodeAt(1));
+// let abc = 0;
+// function abc () {
+//     console.log("hello");
+// }
+// abc();
+
+// let abc = function () {
+
+// }
