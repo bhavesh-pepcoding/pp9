@@ -203,3 +203,98 @@
 // let abc = function () {
 
 // }
+
+
+// profile lookup
+// Setup
+// var contacts = [
+//     {
+//         "firstName": "Akira",
+//         "lastName": "Laine",
+//         "number": "0543236543",
+//         "likes": ["Pizza", "Coding", "Brownie Points"]
+//     },
+//     {
+//         "firstName": "Harry",
+//         "lastName": "Potter",
+//         "number": "0994372684",
+//         "likes": ["Hogwarts", "Magic", "Hagrid"]
+//     },
+//     {
+//         "firstName": "Sherlock",
+//         "lastName": "Holmes",
+//         "number": "0487345643",
+//         "likes": ["Intriguing Cases", "Violin"]
+//     },
+//     {
+//         "firstName": "Kristian",
+//         "lastName": "Vos",
+//         "number": "unknown",
+//         "likes": ["JavaScript", "Gaming", "Foxes"]
+//     }
+// ];
+
+
+// function lookUpProfile(name, prop){
+// // Only change code below this line
+//     for(let i = 0; i < contacts.length; i++) {
+//         if(contacts[i].firstName == name && contacts[i][prop] != undefined) {
+//             return contacts[i][prop];
+//         }
+//     if(contacts[i].firstName == name && contacts[i][prop] == undefined) {
+//             return "No such property";
+//         }
+//     }
+//     return ("No such contact")
+
+// // Only change code above this line
+// }
+
+// lookUpProfile("Akira", "likes");
+
+
+// count characters
+
+// let str = "abcaddefa"
+// let obj = {};
+// for(let i = 0; i < str.length; i++) {
+//     if(obj[str[i]] == undefined) {
+//         obj[str[i]] = 1;
+//     } else {
+//         obj[str[i]] += 1;
+//     }
+// }
+// console.log(obj);
+
+
+// let str = "my name is bhavesh";
+// let ans = "";
+// if(str[0] != " ") {
+//  ans += str[0].toUpperCase();
+// }
+// for(let i = 1; i < str.length; i++) {
+//     if(str[i-1] != " ") {
+//         ans += str[i];
+//     } else {
+//         ans += str[i].toUpperCase();
+//     }
+// }
+// console.log(ans);
+
+let str = "hello how are you";
+
+let ans = "";
+let tempans = "";
+for(let i = str.length -1; i >= 0; i--) {
+    
+    if(str[i] == " ") {
+        ans = " " +tempans + ans;
+        tempans = "";
+    } else if(i == 0) {
+        ans = tempans + str[i] + ans;
+    }else {
+        tempans += str[i];
+    }
+}
+
+console.log(ans);
