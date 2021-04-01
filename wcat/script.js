@@ -29,7 +29,16 @@ if(processData[2] == "a") {
                 }
             }
             data += finalData;
-        } else {
+        } else if(processData.includes("ns")) {
+            if(!iUpdated) {
+                i = i + 1;
+                iUpdated = true;
+            }
+            let tempData = fs.readFileSync(processData[i],"utf-8");
+            let arrData = tempData.split(" ");
+            let finalData = arrData.join("");
+            data += "\n"+finalData;
+        }else {
             data += "\n" + fs.readFileSync(processData[i],"utf-8");
         }
         

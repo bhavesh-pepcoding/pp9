@@ -281,20 +281,74 @@
 // }
 // console.log(ans);
 
-let str = "hello how are you";
+// let str = "hello how are you";
 
-let ans = "";
-let tempans = "";
-for(let i = str.length -1; i >= 0; i--) {
+// let ans = "";
+// let tempans = "";
+// for(let i = str.length -1; i >= 0; i--) {
     
-    if(str[i] == " ") {
-        ans = " " +tempans + ans;
-        tempans = "";
-    } else if(i == 0) {
-        ans = tempans + str[i] + ans;
-    }else {
-        tempans += str[i];
-    }
-}
+//     if(str[i] == " ") {
+//         ans = " " +tempans + ans;
+//         tempans = "";
+//     } else if(i == 0) {
+//         ans = tempans + str[i] + ans;
+//     }else {
+//         tempans += str[i];
+//     }
+// }
 
-console.log(ans);
+// console.log(ans);
+
+// 1 april, 2021
+
+// let vs var
+
+// {
+//     let i = 0;
+// }
+
+// console.log(i);
+
+
+// {
+//     var i = 0;
+// }
+
+// console.log(i);
+
+// function abc () {
+//     {
+//         var  i = 0;
+//     }
+//     console.log(i);
+// }
+// abc();
+// console.log(i);
+
+
+// {
+//     const i = 0;
+//     {
+        
+//         console.log(i);
+//     }
+//     console.log(i);
+// }
+
+// var i = 0;
+// i = 1;
+
+// let arr1 = [0,1,2,3];
+// let arr2 = ["a","b","c"];
+
+// let ans = {};
+
+// if((arr1.length != arr2.length) || arr1.length == 0 || arr2.length == 0) {
+//     console.log("not possible");
+// } else {
+//     for(let i = 0; i < arr1.length; i++) {
+//         ans[arr1[i]] = arr2[i];
+//     }
+//     console.log(ans);
+// }
+
