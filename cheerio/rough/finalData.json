@@ -4,52 +4,52 @@
     "Birthday": "December 10, 1996, Wantirna, Victoria"
   },
   {
+    "Name": "Jake Scott Lehmann",
+    "Birthday": "July 08, 1992, Melbourne, Victoria"
+  },
+  { "Name": "Lloyd Pope", "Birthday": "December 01, 1999" },
+  { "Name": "Marcus Sinclair Harris", "Birthday": "July 21, 1992, Perth" },
+  {
+    "Name": "Peter Stephen Patrick Handscomb",
+    "Birthday": "April 26, 1991, Melbourne, Victoria"
+  },
+  {
+    "Name": "Travis Michael Head",
+    "Birthday": "December 29, 1993, Adelaide, South Australia"
+  },
+  { "Name": "Harry James Nielsen", "Birthday": "May 03, 1995" },
+  {
     "Name": "Nicolas James Maddinson",
     "Birthday": "December 21, 1991, Nowra, New South Wales"
   },
-  { "Name": "James Seymour", "Birthday": "Left hand bat" },
-  { "Name": "Matthew William Short", "Birthday": "November 08, 1995" },
-  { "Name": "Marcus Sinclair Harris", "Birthday": "July 21, 1992, Perth" },
-  { "Name": "Harry James Nielsen", "Birthday": "May 03, 1995" },
+  {
+    "Name": "Wesley Austin Agar",
+    "Birthday": "February 05, 1997, Malvern, Victoria"
+  },
   {
     "Name": "Samuel Louis Kerber",
     "Birthday": "July 26, 1994, Shepparton, Victoria"
   },
-  { "Name": "Corey Kelly", "Birthday": "December 14, 2000" },
+  { "Name": "Jake Weatherald", "Birthday": "November 04, 1994" },
   { "Name": "Todd Murphy", "Birthday": "November 15, 2000" },
+  { "Name": "Matthew William Short", "Birthday": "November 08, 1995" },
+  { "Name": "Corey Kelly", "Birthday": "December 14, 2000" },
+  {
+    "Name": "Daniel James Worrall",
+    "Birthday": "July 10, 1991, Melbourne, Victoria"
+  },
+  { "Name": "Will Sutherland", "Birthday": "October 27, 1999" },
   {
     "Name": "Jonathan Adam Merlo",
     "Birthday": "December 15, 1998, Melbourne, Victoria"
-  },
-  { "Name": "Jake Weatherald", "Birthday": "November 04, 1994" },
-  {
-    "Name": "Ryan James Gibson",
-    "Birthday": "December 30, 1993, Penrith, New South Wales"
   },
   {
     "Name": "Alex Tyson Carey",
     "Birthday": "August 27, 1991, Loxton, South Australia"
   },
   {
-    "Name": "Travis Michael Head",
-    "Birthday": "December 29, 1993, Adelaide, South Australia"
+    "Name": "Ryan James Gibson",
+    "Birthday": "December 30, 1993, Penrith, New South Wales"
   },
-  {
-    "Name": "Peter Stephen Patrick Handscomb",
-    "Birthday": "April 26, 1991, Melbourne, Victoria"
-  },
-  {
-    "Name": "Wesley Austin Agar",
-    "Birthday": "February 05, 1997, Malvern, Victoria"
-  },
-  { "Name": "Lloyd Pope", "Birthday": "December 01, 1999" },
-  { "Name": "Will Sutherland", "Birthday": "October 27, 1999" },
-  {
-    "Name": "Jake Scott Lehmann",
-    "Birthday": "July 08, 1992, Melbourne, Victoria"
-  },
-  {
-    "Name": "Daniel James Worrall",
-    "Birthday": "July 10, 1991, Melbourne, Victoria"
-  }
+  { "Name": "James Seymour", "Birthday": "Left hand bat" }
 ]
