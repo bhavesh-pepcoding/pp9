@@ -53,7 +53,7 @@ async function solveChallenge(url,tab) {
             await tab.keyboard.down("Control");
             await tab.keyboard.press("A");
             await tab.keyboard.press("X");
-            await tab.type(".monaco-scrollable-element.editor-scrollable.vs",code);
+            await tab.click(".monaco-scrollable-element.editor-scrollable.vs");
             await tab.keyboard.press("A");
             await tab.keyboard.press("V");
             await tab.keyboard.up("Control");
